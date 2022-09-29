@@ -22,7 +22,7 @@ try:
         """state_ret = SL.get_result()
         state_cal = SL.calculate(img.data, weights.data, bias.data[0])
         if state_ret != state_cal:
-            print("frkica kompa")
+            print("Return state does not match internally calculated result")
         print(f"state return: {state_ret}")"""
 
         img.update()
